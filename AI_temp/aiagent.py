@@ -2,7 +2,7 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Google API Key
-GOOGLE_API_KEY = "AIzaSyAaG5QaOsAj8hY9FxgEXV97clulcWlZQ1A"
+GOOGLE_API_KEY = "Your API Write Here...."
 
 # Load Gemini model
 llm = ChatGoogleGenerativeAI(
@@ -36,4 +36,5 @@ def run_agent():
 
 
 if __name__ == "__main__":
+
     run_agent()
